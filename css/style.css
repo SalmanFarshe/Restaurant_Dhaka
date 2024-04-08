@@ -1,0 +1,608 @@
+/* google font */
+@import url('https://fonts.googleapis.com/css2?family=Grand+Hotel&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+*{
+    margin: 0%;
+    padding: 0%;
+    /* font-family: 'Grand Hotel'; */
+    /* font-family: 'Montserrat',sans-serif; */
+}
+/* common styles */
+.common_button{
+    background-color: #FFC200;
+    color: #000;
+    border-radius: 5px;
+    padding: 10px 50px;
+    outline: none;
+    border: none;
+    font-weight: bold;
+}
+/* header part */
+.header_wrap{
+    background-image: url('../img/food/bg/hero-food-bg-03.jpg');
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+    grid-template-rows: 100px;
+    align-items: center;
+    position: relative;
+}
+.hero_food{
+    position: absolute;
+    height: 100vh;
+    width: auto;
+}
+.hero_food_bg{
+    position: absolute;
+    left: 27%;
+    top: -10%;
+    height: 110vh;
+    width: auto;
+}
+.hero_food_bg_2{
+    position: absolute;
+    right: 0%;
+    height: 100vh;
+    width: auto;
+}
+.logo{
+    position: absolute;
+    z-index: 999;
+    height: auto;
+    width: 150px;
+    padding-left: 25px;
+}
+/* menu design */
+.menu_wrap{
+    padding-right: 25px;
+    z-index: 999;
+}
+.menu_ul{
+    margin-top: 50px;
+    float: right;
+}
+.menu_li{
+    list-style-type: none;
+    float: left;
+    padding: 10px;
+}
+.menu_link{
+    text-decoration: none;
+    color: #FFFFFF;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 20px;
+}
+.search_img{
+    height: auto;
+    width: 18px;
+}
+/* hero section */
+.hero_section{
+    position: absolute;
+    top: 30%;
+    left: 45%;
+    width: 500px;
+}
+.hero_heading{
+    font-size: 50px;
+    color: #FFC200;
+    padding: 1px;
+    font-family: 'Grand Hotel';
+}
+.hero_text{
+    color: #FFFFFF;
+    font-size: 22px;
+    padding: 10px;
+    font-family: 'Montserrat',sans-serif;
+}
+.hero_btn{
+    padding: 10px;
+}
+/* background beauty */
+.background_beauty_wrap{
+    position: relative;
+    height: 280px;
+    width: 500px;
+}
+.background_beauty_img_1{
+    position: absolute;
+    top: -115%;
+    right: 0%;
+}
+.background_beauty_img_2{
+    position: absolute;
+    top: -120%;
+}
+.background_beauty_img_3{
+    position: absolute;
+    top: 5%;
+    left: 5% ;
+}
+.background_beauty_img_4{
+    position: absolute;
+    top: 10%;
+    right: 40% ;
+}
+.background_beauty_img_5{
+    position: absolute;
+    right: -20%;
+    top: -45%;
+}
+.background_beauty_img_6{
+    position: absolute;
+    top: -35%;
+    left: -25%;
+
+}
+.background_beauty_img_7{
+    position: absolute;
+    bottom: 60%;
+    right: -10%;
+}
+.background_beauty_img_8{
+    position: absolute;
+    left: 30%;
+    bottom: 40%;
+}
+.background_beauty_img_9{
+    position: absolute;
+    right: 10%;
+    bottom: 40%;
+}
+.background_beauty_img_1_subs{
+        position: absolute;
+        top: -140%;
+        right: -45%;
+}
+.background_beauty_img_2_subs{
+ position: absolute;
+ top: -135%;
+ left: -20%;
+}
+.background_beauty_img_3_subs{
+   position: absolute;
+   top: 5%;
+   left: 5%;
+}
+.background_beauty_img_4_subs{
+    position: absolute;
+    top: 10%;
+    right: 40%;
+}
+.background_beauty_img_5_subs{
+    position: absolute;
+    right: -20%;
+    top: -45%
+}
+.background_beauty_img_6_subs{
+    position: absolute;
+    top: -65%;
+    left: -55%;
+}
+.background_beauty_img_7_subs{
+    position: absolute;
+    bottom: 120%;
+    right: -60%;
+}
+.background_beauty_img_8_subs{
+    position: absolute;
+    left: 30%;
+    top: -150%;
+}
+.background_beauty_img_9_subs{
+  position: absolute;
+  right: -50%;
+  bottom: 80%;
+}
+.background_beauty_img_1_statistics{
+    position: absolute;
+    top: -120%;
+    left: 30%;
+}
+.background_beauty_img_2_statistics{
+    position: absolute;
+    top: -170%;
+    right: -20%;
+}
+.background_beauty_img_3_statistics{
+    position: absolute;
+    right: 10%;
+    top: 20%;
+}
+.background_beauty_img_4_statistics{
+    position: absolute;
+    left: 180%;
+}
+.background_beauty_img_5_statistics{
+    position: absolute;
+    top: -100%;
+    right: -120%;
+}
+.background_beauty_img_6_statistics{
+    position: absolute;
+    top: -150%;
+    right: -80%;
+}
+.background_beauty_img_7_statistics{
+    position: absolute;
+    top: 20%;
+    left: 20%;
+}
+.background_beauty_img_8_statistics{
+    position: absolute;
+    right: -50%;
+    top: 20%;
+}
+.background_beauty_img_9_statistics{
+    position: absolute;
+}
+/* best seller */
+.best_seller_wrap{ 
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    justify-items: center;
+    width: 1300px;
+    margin: 0 auto;
+}
+.best_seller_heading>h3{
+    font-family: 'Grand Hotel';
+    font-size: 50px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+.best_seller_para>p{
+    font-family: 'Montserrat';
+    font-weight: bold;
+    width: 50%;
+    margin: 0 auto;
+}
+.best_seller_product{
+    margin: 50px;
+    display: grid;
+    grid-gap: 50px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    text-align: center;
+    margin-bottom: 100px;
+    width: 1300px;
+    margin: 0 auto;
+    margin-bottom: 100px;
+}
+.best_seller_product_1>img,
+.best_seller_product_2>img,
+.best_seller_product_3>img {
+    border-radius: 100%;
+}
+.best_seller_product_1>h3,
+.best_seller_product_2>h3,
+.best_seller_product_3>h3{
+    color: black;
+    font-family: 'Grand Hotel';
+    font-size: 25px;
+}
+.best_seller_product_1>p,
+.best_seller_product_2>p,
+.best_seller_product_3>p {
+    color: black;
+    font-family: 'Montserrat',sans-serif;
+    font-weight: bold;
+}
+/* oreantal taste */
+.oreantal_taste {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    height: auto;
+    width: 1300px;
+    margin: 0 auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.oreantal_taste_wrap{
+    background-image: url("../img/food/bg/middlebg.png");
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: 100%;
+    height: 800px;
+    width: 100%;
+    position: relative;
+    margin-top: 150px;
+}
+.background_overlay{
+    height: 500px;
+    width: 100%;
+    background-color: #303030;
+    position: absolute;
+    top: 38%;
+}
+.oreantal_taste_food_img{
+    margin: 50px;
+}
+.oreantal_taste_food_img>img{
+    border-radius: 100%;
+}
+.oreantal_taste_food_img_details{
+    margin: 50px;
+}
+.oreantal_taste_food_img_details>.oreantal_taste_food_img_details_header {
+    color: #FFC200;
+    font-size: 60px;
+    letter-spacing: 5px;
+    font-family: 'Grand Hotel';
+    margin-top: 80px;
+}
+.oreantal_taste_food_img_details_para{
+    font-family: 'Montserrat',sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    padding-bottom: 30px;
+    padding-top: 25px;
+    color: #FFFFFF;
+}
+/* statistics */
+.statistics_section{
+    width: 1200px;
+    margin: 0% auto;
+}
+.statistics_section_wrap{
+    background-image: url("../img/food/bg/hero-food-bg-02.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    display: grid;
+    padding-right: 100px;
+    padding-left: 100px;
+    grid-template-columns: 1fr;
+    grid-template-rows: 100px 100px 300px;
+    height: 700px;
+}
+.statistics_heading>h1{
+    font-family: 'Grand Hotel';
+    font-size: 50px;
+    color: #FFC200;
+    padding-bottom: 30px;
+}
+.statistics_para{
+    padding-bottom: 50px;
+    margin: 0 auto;
+    width: 40%;
+    color: #FFFFFF;
+    font-family: 'Montserrat',sans-serif;
+    font-weight: bold;
+}
+.statistics_circle_wrap{
+    display: grid;
+    grid-gap: 50px;
+    justify-content: space-around;
+    grid-template-columns: 200px 200px 200px 200px;
+    grid-template-rows: 200px;
+}
+.statistics_circle_1,
+.statistics_circle_2,
+.statistics_circle_3,
+.statistics_circle_4{
+    color: #FFFFFF;
+    border: 3px solid #FFFFFF;
+    border-radius: 100%;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 50px 50px;
+    align-items: center;
+    align-content: center;
+}
+.statistics_number{
+    color: #FFC200;
+    font-weight: bold;
+    font-size: 50px;
+    font-family: 'Montserrat',sans-serif;
+}
+.statistics_name{
+    font-weight: bolder;
+    font-size: 22px;
+    font-family: 'Montserrat',sans-serif;
+}
+/* chicken gril */
+.chicken_gril_wrap{
+    position: relative;
+    margin-bottom: 100px;
+}
+.middle_img_2{
+    height: 700px;
+    width: 100%;
+    margin-top: -30px;
+}
+.chicken_gril_details{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    width: 1200px;
+}
+.chicken_gril_details_img{
+    border-radius: 50%;
+    float: right;
+    height: 400px;
+    width: 400px;
+}
+.chicken_gril_para{
+    color: #FFFFFF;
+    font-family: 'Montserrat',sans-serif;
+    font-weight: bold;
+    margin-bottom: 50px;
+}
+.chicken_gril_heading{
+    color: #FFC200;
+    font-family: 'Grand Hotel';
+    font-size: 50px;
+    margin-bottom: 25px;
+}
+.chicken_gril_details_wrap{
+    float: left;
+    width: 50%;
+}
+/* senora field */
+.senora_field{
+    width: 1300px;
+    height: 100vh;
+    margin: 0% auto;
+}
+.senora_field_wrap{
+    background-image: url("../img/food/overley-bg.jpg");
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.overlay_div{
+    height: 100vh;
+    width: 100%;
+    background-color: #1f1e1b70;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+}
+.senora_field_para{
+    z-index: 11;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #FFFFFF;
+    font-weight: bold;
+    font-family: 'Montserrat',sans-serif;
+    text-align: center;
+    width: 700px;
+}
+.senora_field_heading{
+    z-index: 11;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #FFC200;
+    font-family: 'Grand Hotel';
+    font-size: 50px;
+}
+.subscribe_section{
+    padding-top: 150px;
+    height: 300px;
+    width: 1300px;
+    margin: 0% auto;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 100px 100px 100px;
+    align-items: center;
+    justify-items: center;
+    margin-bottom: 100px;
+}
+.subs_input{
+    border: none;
+    outline: none;
+    box-shadow: 1px 1px 10px -5px rgb(17, 16, 16);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    width: 250px;
+    border-radius: 5px;
+}
+.subs_button{
+    background-color: #FFC200;
+    color: #000;
+    border-radius: 1px;
+    padding: 10px 20px;
+    outline: none;
+    border: none;
+    font-weight: bold;
+    margin-left: -6px;
+    box-shadow: 1px 1px 10px -5px rgb(17, 16, 16);
+}
+.subs_head{
+    color: #FFC200;
+    font-size: 70px;
+    font-family: 'Grand Hotel';
+}
+.subs_para{
+    color: rgb(24, 20, 20);
+    font-family: 'Montserrat',sans-serif;
+    font-weight: bold;
+    text-align: center;
+    width: 45%;
+}
+/* footer */
+footer{
+    background-color: #303030;
+    display: grid;
+    grid-template-columns: 300px 600px;
+    grid-template-rows: 500px;
+    align-items: center;
+    justify-content: space-around;
+    width: 1300px;
+    margin: 0 auto;
+}
+.footer_left_part{
+    color: #FFFFFF;
+    font-family: 'Montserrat',sans-serif;
+}
+.social_shere{
+    margin-top: 10px;
+}
+.shere_ul{
+    list-style-type: none;
+}
+.shere_li{
+    float: left;
+}
+.shere_link{
+    color: #ffffffa4;
+    padding: 5px;
+}
+.footer_right_part{
+    color: #FFFFFF;
+    font-family: 'Montserrat',sans-serif;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+}
+.right_part_part_1>ul{
+    list-style-type: none;
+}
+.right_part_part_1>ul>li>a{
+    color: #FFFFFF;
+    text-decoration: none;
+    padding: 5px;
+}
+.right_part_part_2>ul{
+    list-style-type: none;
+}
+.right_part_part_2>ul>li>a{
+    color: #FFFFFF;
+    text-decoration: none;
+    padding: 5px;
+}
+.right_part_part_3>ul{
+    list-style-type: none;
+}
+.right_part_part_3>ul>li>a{
+    color: #FFFFFF;
+    text-decoration: none;
+    padding: 5px;
+}
+.footer_wrap{
+    width: 100%;
+    background-color: #303030;
+}
+.footer_left_part_para{
+    margin-top: 5px;
+}

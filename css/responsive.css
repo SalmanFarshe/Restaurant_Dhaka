@@ -1,0 +1,63 @@
+/* --salman farshe-- */
+/*Screen = B/w 1025px to 1280px*/
+@media (min-width: 1200px) {
+  .container {
+    display: none;
+  }
+  .header {
+    display: block;
+  }
+}
+@media (min-width: 1025px) and (max-width: 1199px) {
+  .wrapper,
+  .header {
+    display: none !important;
+  }
+}
+/*Screen = B/w 768px to 1024px*/
+@media (min-width: 768px) and (max-width: 1024px) {
+  .wrapper,
+  .header {
+    display: none !important;
+  }
+}
+/*Screen = B/w 481px to 767px*/
+@media (min-width: 481px) and (max-width: 767px) {
+  .wrapper,
+  .header {
+    display: none !important;
+  }
+}
+/*Screen = B/w 320px to 479px*/
+@media (min-width: 320px) and (max-width: 480px) {
+  .wrapper,
+  .header {
+    display: none !important;
+  }
+}
+/* small devices */
+@media (max-width: 320px) {
+  .wrapper,
+  .header {
+    display: none !important;
+  }
+  .container {
+    display: block !important;
+  }
+}
+.container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 70%; /* fixed width */
+  text-align: center;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-color: rgb(245, 15, 15);
+  color: #fff;
+  font-weight: bold;
+  z-index: 1000;
+}
